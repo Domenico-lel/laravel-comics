@@ -18,9 +18,15 @@
         @include('components.footer')
         <!-- header -->
         <header>
-            @include('components.header')
-            @yield('content')
+            <nav>
+                @include('components.header')
+            </nav>
         </header>
+
+        <main>
+            @yield('content')
+        </main>
+        
 </body>
 
 </html>
