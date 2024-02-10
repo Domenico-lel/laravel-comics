@@ -16,3 +16,25 @@ ul{
 .img-cartoon{
     width: 100%;
 }
+
+a{
+    text-decoration: none;
+}
+
+
+
+#container-immagine{
+    background-image: url(../imgs/footer-bg.jpg);
+    height: 450px;
+    ul{
+        li{
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+.link{
+    background-color: #303030;
+}

@@ -15,8 +15,8 @@
 </head>
 
 <body>
-        @include('components.footer')
-        <!-- header -->
+        
+        
         <header>
             <nav>
                 @include('components.header')
@@ -27,6 +27,9 @@
             @yield('content')
         </main>
         
+        <footer>
+            @include('components.footer')
+        </footer>
 </body>
 
 </html>
