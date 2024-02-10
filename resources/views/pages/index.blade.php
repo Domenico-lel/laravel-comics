@@ -65,7 +65,6 @@
     </div>
 </section>
 <!-- fine sezione utility per utente  -->
-        
-    @endsection>    
+           
 
 @endsection
